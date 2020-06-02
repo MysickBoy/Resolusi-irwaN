@@ -6,4 +6,4 @@
 package main
 
 import (
-	"code.google
+	"code.google.com/p/
