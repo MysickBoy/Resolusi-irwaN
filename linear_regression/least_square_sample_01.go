@@ -6,4 +6,5 @@
 package main
 
 import (
-	"code.google.com/p/plotinum/plo
+	"code.google.com/p/plotinum/plot"
+	"
