@@ -8,4 +8,4 @@ package main
 import (
 	"code.google.com/p/plotinum/plot"
 	"code.google.com/p/plotinum/plotter"
-	"code.google.
+	"code.google.com/p/plot
