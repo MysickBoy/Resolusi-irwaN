@@ -13,4 +13,4 @@ import (
 	"github.com/skelterjohn/go.matrix"
 	"image/color"
 	"math"
-	"math/r
+	"math/rand
