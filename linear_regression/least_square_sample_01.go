@@ -17,4 +17,4 @@ import (
 //	"fmt"
 )
 
-fun
+func m
