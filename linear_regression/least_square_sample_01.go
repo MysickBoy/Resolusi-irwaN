@@ -16,3 +16,5 @@ import (
 	"math/rand"
 //	"fmt"
 )
+
+fun
