@@ -17,4 +17,4 @@ import (
 //	"fmt"
 )
 
-func makeBaseFunc
+func makeBaseFunction(
