@@ -17,4 +17,4 @@ import (
 //	"fmt"
 )
 
-func makeBaseFunction(a_m in
+func makeBaseFunction(a_m int) func(fl
