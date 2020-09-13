@@ -17,4 +17,4 @@ import (
 //	"fmt"
 )
 
-func makeBaseFunction(a_m int) func(float64
+func makeBaseFunction(a_m int) func(float64) []f
