@@ -18,4 +18,4 @@ import (
 )
 
 func makeBaseFunction(a_m int) func(float64) []float64 {
-	return func(a_x float64) []float64
+	return func(a_x float64) []float64 {
