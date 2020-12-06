@@ -20,4 +20,4 @@ import (
 func makeBaseFunction(a_m int) func(float64) []float64 {
 	return func(a_x float64) []float64 {
 		ret := make([]float64, 0, 2*a_m+1)
-		for i
+		for i := 0;
