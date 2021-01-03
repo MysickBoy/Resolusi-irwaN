@@ -24,4 +24,4 @@ func makeBaseFunction(a_m int) func(float64) []float64 {
 			switch {
 			case i == 0:
 				ret = append(ret, 1)
-			defa
+			default
