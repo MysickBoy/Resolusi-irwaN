@@ -23,4 +23,5 @@ func makeBaseFunction(a_m int) func(float64) []float64 {
 		for i := 0; i <= a_m; i++ {
 			switch {
 			case i == 0:
-				ret = append(ret, 
+				ret = append(ret, 1)
+			defa
