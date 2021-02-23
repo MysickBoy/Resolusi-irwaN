@@ -28,4 +28,4 @@ func makeBaseFunction(a_m int) func(float64) []float64 {
 				ret = append(ret, math.Sin(float64(i)*a_x/2), math.Cos(float64(i)*a_x/2))
 			}
 		}
-		r
+		return 
