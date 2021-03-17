@@ -32,4 +32,5 @@ func makeBaseFunction(a_m int) func(float64) []float64 {
 	}
 }
 
-func makePhiMatrix(a_vec []float64, a_baseFunction func(float64) []float64) (matrix [][]float
+func makePhiMatrix(a_vec []float64, a_baseFunction func(float64) []float64) (matrix [][]float64) {
+	
