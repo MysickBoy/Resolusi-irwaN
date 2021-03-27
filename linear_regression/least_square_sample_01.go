@@ -34,4 +34,4 @@ func makeBaseFunction(a_m int) func(float64) []float64 {
 
 func makePhiMatrix(a_vec []float64, a_baseFunction func(float64) []float64) (matrix [][]float64) {
 	matrix = make([][]float64, 0)
-	for _, x := range a_
+	for _, x := range a_vec 
