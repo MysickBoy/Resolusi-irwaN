@@ -40,4 +40,5 @@ func makePhiMatrix(a_vec []float64, a_baseFunction func(float64) []float64) (mat
 	return
 }
 
-func f(a_w []float64, a_x float64, a_baseFunction func(float64) []float64) float6
+func f(a_w []float64, a_x float64, a_baseFunction func(float64) []float64) float64 {
+	ve
