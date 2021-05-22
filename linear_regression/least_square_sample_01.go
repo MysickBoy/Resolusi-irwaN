@@ -42,4 +42,4 @@ func makePhiMatrix(a_vec []float64, a_baseFunction func(float64) []float64) (mat
 
 func f(a_w []float64, a_x float64, a_baseFunction func(float64) []float64) float64 {
 	vecW := matrix.MakeDenseMatrix(a_w, 1, len(a_w))
-	phiX := a_baseFunction
+	phiX := a_baseFunction(a
