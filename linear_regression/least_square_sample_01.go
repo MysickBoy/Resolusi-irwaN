@@ -47,4 +47,4 @@ func f(a_w []float64, a_x float64, a_baseFunction func(float64) []float64) float
 	return matrix.Product(vecW, vecPhiX).Get(0, 0)
 }
 
-func linspace(a_sta
+func linspace(a_start, a
