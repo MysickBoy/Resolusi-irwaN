@@ -49,4 +49,4 @@ func f(a_w []float64, a_x float64, a_baseFunction func(float64) []float64) float
 
 func linspace(a_start, a_end float64, a_n int) (ret []float64) {
 	ret = make([]float64, a_n)
-	if a
+	if a_n == 
