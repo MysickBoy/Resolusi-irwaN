@@ -59,3 +59,5 @@ func linspace(a_start, a_end float64, a_n int) (ret []float64) {
 	}
 	return
 }
+
+func 
