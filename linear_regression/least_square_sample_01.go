@@ -60,4 +60,4 @@ func linspace(a_start, a_end float64, a_n int) (ret []float64) {
 	return
 }
 
-func addLine(a_p *plot.Plot,
+func addLine(a_p *plot.Plot, a_xVec,
