@@ -63,4 +63,4 @@ func linspace(a_start, a_end float64, a_n int) (ret []float64) {
 func addLine(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 	length := len(a_xVec)
 	xys := make(plotter.XYs, length)
-	for i := 0; i < le
+	for i := 0; i < leng
