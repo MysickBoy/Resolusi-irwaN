@@ -64,4 +64,4 @@ func addLine(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 	length := len(a_xVec)
 	xys := make(plotter.XYs, length)
 	for i := 0; i < length; i++ {
-		xy
+		xys[i
