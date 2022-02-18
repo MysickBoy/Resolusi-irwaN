@@ -67,4 +67,4 @@ func addLine(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 		xys[i].X = a_xVec[i]
 		xys[i].Y = a_yVec[i]
 	}
-	
+	plotut
