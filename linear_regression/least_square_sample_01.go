@@ -70,4 +70,5 @@ func addLine(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 	plotutil.AddLinePoints(a_p, "f", xys)
 }
 
-func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64)
+func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
+	le
