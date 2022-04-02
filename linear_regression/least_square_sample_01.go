@@ -71,4 +71,5 @@ func addLine(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 }
 
 func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
-	length := len(a_xVe
+	length := len(a_xVec)
+	xy
