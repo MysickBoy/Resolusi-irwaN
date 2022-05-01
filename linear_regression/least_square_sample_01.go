@@ -73,4 +73,4 @@ func addLine(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 	length := len(a_xVec)
 	xyzs := make(plotter.XYZs, length)
-	for i := 0;
+	for i := 0; i 
