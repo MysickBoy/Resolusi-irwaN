@@ -76,4 +76,4 @@ func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 	for i := 0; i < length; i++ {
 		xyzs[i].X = a_xVec[i]
 		xyzs[i].Y = a_yVec[i]
-		xyz
+		xyzs[i].
