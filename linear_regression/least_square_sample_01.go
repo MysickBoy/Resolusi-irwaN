@@ -78,4 +78,4 @@ func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 		xyzs[i].Y = a_yVec[i]
 		xyzs[i].Z = 1
 	}
-	bs, _ := plotter.Ne
+	bs, _ := plotter.NewBu
