@@ -79,4 +79,4 @@ func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 		xyzs[i].Z = 1
 	}
 	bs, _ := plotter.NewBubbles(xyzs, vg.Points(2), vg.Points(2))
-	bs.Color = colo
+	bs.Color = color.RG
