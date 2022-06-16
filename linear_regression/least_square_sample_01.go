@@ -80,4 +80,4 @@ func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 	}
 	bs, _ := plotter.NewBubbles(xyzs, vg.Points(2), vg.Points(2))
 	bs.Color = color.RGBA{R: 196, B: 128, A: 255}
-	a_p.Add
+	a_p.Add(bs)
