@@ -83,4 +83,5 @@ func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 	a_p.Add(bs)
 }
 
-func main() 
+func main() {
+	
