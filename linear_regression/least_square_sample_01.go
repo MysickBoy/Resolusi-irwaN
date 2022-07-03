@@ -86,4 +86,4 @@ func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 func main() {
 	// alias
 	Dot := matrix.Product
-	Inv := matrix.In
+	Inv := matrix.Inver
