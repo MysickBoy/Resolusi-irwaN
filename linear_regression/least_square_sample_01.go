@@ -87,4 +87,4 @@ func main() {
 	// alias
 	Dot := matrix.Product
 	Inv := matrix.Inverse
-	T := matrix.Tra
+	T := matrix.Transpose
