@@ -88,4 +88,4 @@ func main() {
 	Dot := matrix.Product
 	Inv := matrix.Inverse
 	T := matrix.Transpose
-	Sin := math
+	Sin := math.Sin
