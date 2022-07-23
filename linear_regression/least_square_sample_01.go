@@ -91,4 +91,5 @@ func main() {
 	Sin := math.Sin
 	Pi := math.Pi
 
-	// r
+	// rand
+	r 
