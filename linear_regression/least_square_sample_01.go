@@ -92,4 +92,4 @@ func main() {
 	Pi := math.Pi
 
 	// rand
-	r := ra
+	r := rand.
