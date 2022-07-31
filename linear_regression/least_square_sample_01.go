@@ -92,4 +92,5 @@ func main() {
 	Pi := math.Pi
 
 	// rand
-	r := rand.New(rand.NewSource(0
+	r := rand.New(rand.NewSource(0))
+
