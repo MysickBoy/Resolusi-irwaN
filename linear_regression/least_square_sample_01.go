@@ -95,4 +95,4 @@ func main() {
 	r := rand.New(rand.NewSource(0))
 
 	// train data
-	train
+	train_dat
