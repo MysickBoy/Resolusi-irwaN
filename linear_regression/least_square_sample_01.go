@@ -96,4 +96,4 @@ func main() {
 
 	// train data
 	train_data_size := 50
-	vec_
+	vec_x := linspa
