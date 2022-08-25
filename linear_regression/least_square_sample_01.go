@@ -96,4 +96,5 @@ func main() {
 
 	// train data
 	train_data_size := 50
-	vec_x := linspace(-3, 3, train_data_siz
+	vec_x := linspace(-3, 3, train_data_size)
+	v
