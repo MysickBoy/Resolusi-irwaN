@@ -98,3 +98,4 @@ func main() {
 	train_data_size := 50
 	vec_x := linspace(-3, 3, train_data_size)
 	vec_t := make([]float64, 0, train_data_size)
+	for
