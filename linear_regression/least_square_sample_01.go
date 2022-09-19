@@ -100,4 +100,5 @@ func main() {
 	vec_t := make([]float64, 0, train_data_size)
 	for _, x := range vec_x {
 		vec_t = append(vec_t, Sin(Pi*x)/Pi*x+0.1*x+0.05*r.NormFloat64())
-	
+	}
+
