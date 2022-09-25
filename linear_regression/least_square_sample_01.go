@@ -102,4 +102,5 @@ func main() {
 		vec_t = append(vec_t, Sin(Pi*x)/Pi*x+0.1*x+0.05*r.NormFloat64())
 	}
 
-	// base functio
+	// base function
+	φ 
