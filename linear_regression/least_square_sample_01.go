@@ -103,4 +103,4 @@ func main() {
 	}
 
 	// base function
-	φ := makeB
+	φ := makeBas
