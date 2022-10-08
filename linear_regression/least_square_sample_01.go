@@ -103,4 +103,4 @@ func main() {
 	}
 
 	// base function
-	φ := makeBaseFunction(5) // ここ，例
+	φ := makeBaseFunction(5) // ここ，例は 
