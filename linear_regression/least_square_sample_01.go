@@ -105,4 +105,5 @@ func main() {
 	// base function
 	φ := makeBaseFunction(5) // ここ，例は 15 だけど，15 にすると上手くフィットしない
 
-	// estima
+	// estimate
+	
