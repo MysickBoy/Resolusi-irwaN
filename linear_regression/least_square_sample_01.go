@@ -106,4 +106,4 @@ func main() {
 	φ := makeBaseFunction(5) // ここ，例は 15 だけど，15 にすると上手くフィットしない
 
 	// estimate
-	Φ := matrix.MakeDenseMatrixStacked(
+	Φ := matrix.MakeDenseMatrixStacked(makePh
