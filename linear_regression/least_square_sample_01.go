@@ -107,4 +107,4 @@ func main() {
 
 	// estimate
 	Φ := matrix.MakeDenseMatrixStacked(makePhiMatrix(vec_x, φ))
-	w 
+	w :
