@@ -110,4 +110,5 @@ func main() {
 	w := Dot(Inv(Dot(T(Φ), Φ)), Dot(T(Φ), matrix.MakeDenseMatrix(vec_t, len(vec_t), 1)))
 
 	// 求めた重みでグラフを描いてみる
-	xlist := linspace(-3, 3, 10
+	xlist := linspace(-3, 3, 1000)
+	yl
