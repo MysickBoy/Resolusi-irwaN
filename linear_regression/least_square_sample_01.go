@@ -111,4 +111,5 @@ func main() {
 
 	// 求めた重みでグラフを描いてみる
 	xlist := linspace(-3, 3, 1000)
-	ylist := make([]float64, 0, 100
+	ylist := make([]float64, 0, 1000)
+	for 
