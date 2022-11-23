@@ -113,4 +113,4 @@ func main() {
 	xlist := linspace(-3, 3, 1000)
 	ylist := make([]float64, 0, 1000)
 	for _, x := range xlist {
-		ylis
+		ylist = 
