@@ -113,4 +113,4 @@ func main() {
 	xlist := linspace(-3, 3, 1000)
 	ylist := make([]float64, 0, 1000)
 	for _, x := range xlist {
-		ylist = append(ylist, f(w.Array(), 
+		ylist = append(ylist, f(w.Array(), x, φ
