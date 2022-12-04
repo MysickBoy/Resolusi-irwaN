@@ -114,3 +114,5 @@ func main() {
 	ylist := make([]float64, 0, 1000)
 	for _, x := range xlist {
 		ylist = append(ylist, f(w.Array(), x, φ))
+	}
+
