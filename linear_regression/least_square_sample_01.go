@@ -116,3 +116,4 @@ func main() {
 		ylist = append(ylist, f(w.Array(), x, φ))
 	}
 
+	
