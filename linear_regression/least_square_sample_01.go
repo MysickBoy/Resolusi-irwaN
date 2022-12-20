@@ -117,4 +117,5 @@ func main() {
 	}
 
 	// 描画
-	p, _ := plot.New(
+	p, _ := plot.New()
+	p.
