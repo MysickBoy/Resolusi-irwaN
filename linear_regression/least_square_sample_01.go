@@ -118,4 +118,4 @@ func main() {
 
 	// 描画
 	p, _ := plot.New()
-	p.Tit
+	p.Title.Te
