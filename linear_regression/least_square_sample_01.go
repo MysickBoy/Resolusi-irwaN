@@ -120,3 +120,4 @@ func main() {
 	p, _ := plot.New()
 	p.Title.Text = "Linear regression"
 	p.X.Label.Text = "X"
+	p.Y.Label
