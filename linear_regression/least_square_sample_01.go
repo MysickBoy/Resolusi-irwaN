@@ -121,4 +121,5 @@ func main() {
 	p.Title.Text = "Linear regression"
 	p.X.Label.Text = "X"
 	p.Y.Label.Text = "Y"
-	addLine(p, xlist, ylist
+	addLine(p, xlist, ylist)
+	a
