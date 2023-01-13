@@ -122,4 +122,4 @@ func main() {
 	p.X.Label.Text = "X"
 	p.Y.Label.Text = "Y"
 	addLine(p, xlist, ylist)
-	addPoints(
+	addPoints(p, vec_
