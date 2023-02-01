@@ -123,4 +123,4 @@ func main() {
 	p.Y.Label.Text = "Y"
 	addLine(p, xlist, ylist)
 	addPoints(p, vec_x, vec_t)
-	p.Save(4, 4, 
+	p.Save(4, 4, "least_
