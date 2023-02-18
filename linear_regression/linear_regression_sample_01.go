@@ -27,3 +27,9 @@ func makePhiMatrix(a_vec []float64, a_baseFunction func(float64) []float64) (mat
 	}
 	return
 }
+
+func f(a_w []float64, a_x float64, a_baseFunction func(float64) []float64) float64 {
+	vecW := matrix.MakeDenseMatrix(a_w, 1, len(a_w))
+	phiX := a_baseFunction(a_x)
+	vecPhiX := matrix.MakeDenseMatrix(phiX, len(phiX), 1)
+	return matrix.Product(vecW, vecPhiX).Get(0, 0)
