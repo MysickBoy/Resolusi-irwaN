@@ -15,3 +15,10 @@ import (
 	"image/color"
 	"math"
 )
+
+func defaultBaseFunction(a_x float64) []float64 {
+	return []float64{1, a_x, math.Pow(a_x, 2), math.Pow(a_x, 3)}
+}
+
+func makePhiMatrix(a_vec []float64, a_baseFunction func(float64) []float64) (matrix [][]float64) {
+	matrix = make([][]float64, 0)
