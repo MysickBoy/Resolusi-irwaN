@@ -22,3 +22,8 @@ func defaultBaseFunction(a_x float64) []float64 {
 
 func makePhiMatrix(a_vec []float64, a_baseFunction func(float64) []float64) (matrix [][]float64) {
 	matrix = make([][]float64, 0)
+	for _, x := range a_vec {
+		matrix = append(matrix, a_baseFunction(x))
+	}
+	return
+}
