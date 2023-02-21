@@ -40,3 +40,10 @@ func linspace(a_start, a_end float64, a_n int) (ret []float64) {
 	if a_n == 1 {
 		ret[0] = a_end
 		return ret
+	}
+	delta := (a_end - a_start) / (float64(a_n) - 1)
+	for i := 0; i < a_n; i++ {
+		ret[i] = float64(a_start) + (delta * float64(i))
+	}
+	return
+}
