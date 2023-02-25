@@ -62,3 +62,6 @@ func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 	length := len(a_xVec)
 	xyzs := make(plotter.XYZs, length)
 	for i := 0; i < length; i++ {
+		xyzs[i].X = a_xVec[i]
+		xyzs[i].Y = a_yVec[i]
+		xyzs[i].Z = 1
