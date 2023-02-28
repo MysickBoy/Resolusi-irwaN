@@ -70,3 +70,9 @@ func addPoints(a_p *plot.Plot, a_xVec, a_yVec []float64) {
 	bs.Color = color.RGBA{R: 196, B: 128, A: 255}
 	a_p.Add(bs)
 }
+
+func main() {
+     	// alias        
+	Dot := matrix.Product
+	Inv := matrix.Inverse
+	T := matrix.Transpose
