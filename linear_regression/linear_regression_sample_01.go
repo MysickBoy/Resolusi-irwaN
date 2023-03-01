@@ -81,3 +81,12 @@ func main() {
 	vec_t := []float64{0.05, 0.87, 0.94, 0.92, 0.54, -0.11, -0.78, -0.89, -0.79, -0.04}
 
 	// base function
+	φ:= func(a_x float64) []float64 {
+		return []float64{1, a_x, math.Pow(a_x, 2), math.Pow(a_x, 3), math.Pow(a_x, 4)}
+	}
+	// φ = defaultBaseFunction
+
+	Φ := matrix.MakeDenseMatrixStacked(makePhiMatrix(vec_x, φ))
+	w := Dot(Inv(Dot(T(Φ), Φ)), Dot(T(Φ), matrix.MakeDenseMatrix(vec_t, 10, 1)))
+
+        // 求めた重みでグラフを描いてみる
