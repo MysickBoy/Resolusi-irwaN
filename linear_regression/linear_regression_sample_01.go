@@ -90,3 +90,8 @@ func main() {
 	w := Dot(Inv(Dot(T(Φ), Φ)), Dot(T(Φ), matrix.MakeDenseMatrix(vec_t, 10, 1)))
 
         // 求めた重みでグラフを描いてみる
+	xlist := linspace(0, 1, 100)
+	ylist := make([]float64, 0)
+	for _, x := range xlist {
+		ylist = append(ylist, f(w.Array(), x, φ))
+	}
