@@ -76,3 +76,8 @@ func main() {
 	Dot := matrix.Product
 	Inv := matrix.Inverse
 	T := matrix.Transpose
+     	// train data
+	vec_x := []float64{0.02, 0.12, 0.19, 0.27, 0.42, 0.51, 0.64, 0.84, 0.88, 0.99}
+	vec_t := []float64{0.05, 0.87, 0.94, 0.92, 0.54, -0.11, -0.78, -0.89, -0.79, -0.04}
+
+	// base function
