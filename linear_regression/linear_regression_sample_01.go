@@ -95,3 +95,13 @@ func main() {
 	for _, x := range xlist {
 		ylist = append(ylist, f(w.Array(), x, φ))
 	}
+
+	// 描画
+	p, _ := plot.New()
+	p.Title.Text = "Linear regression"
+	p.X.Label.Text = "X"
+	p.Y.Label.Text = "Y"
+	addLine(p, xlist, ylist)
+	addPoints(p, vec_x, vec_t)
+	p.Save(4, 4, "linear_regression_sample_01.png")
+}
